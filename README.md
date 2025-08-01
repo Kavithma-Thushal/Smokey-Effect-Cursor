@@ -16,7 +16,7 @@ pages, or interactive web experiments.
 ✅ Fully responsive and lightweight.<br/>
 ✅ Easily customizable styles and motion behavior.<br/>
 
-## 🔗 [Live Demo](https://kavithma-thushal.github.io/Smokey-Effect-Cursor/)
+### 🔗 [Live Demo](https://kavithma-thushal.github.io/Smokey-Effect-Cursor/)
 
 ## 📸 Screenshots
 
