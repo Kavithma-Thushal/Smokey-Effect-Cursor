@@ -2,7 +2,7 @@
 
 A visually dynamic **smokey trail cursor** effect using HTML, CSS, and JS. This project creates a smooth,
 fluid-like trail that follows the mouse, mimicking a smoky visual effect — perfect for creative portfolios, landing
-pages, or interactive web experiments
+pages, or interactive web experiments.
 
 ## 🛠️ Tech Stack
 
