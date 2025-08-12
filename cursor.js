@@ -544,7 +544,6 @@ const blit = (() => {
             gl.clearColor(0.0, 0.0, 0.0, 1.0);
             gl.clear(gl.COLOR_BUFFER_BIT);
         }
-        // CHECK_FRAMEBUFFER_STATUS();
         gl.drawElements(gl.TRIANGLES, 6, gl.UNSIGNED_SHORT, 0);
     }
 })();
@@ -706,7 +705,6 @@ let colorUpdateTimer = 0.0;
 
 function update() {
     const dt = calcDeltaTime();
-    // console.log(dt)
     if (resizeCanvas()) initFramebuffers();
     updateColors(dt);
     applyInputs();
@@ -950,7 +948,6 @@ function updatePointerDownData(pointer, id, posX, posY) {
 }
 
 function updatePointerMoveData(pointer, posX, posY, color) {
-    // pointer.down = false;
     pointer.prevTexcoordX = pointer.texcoordX;
     pointer.prevTexcoordY = pointer.texcoordY;
     pointer.texcoordX = posX / canvas.width;
@@ -977,7 +974,7 @@ function correctDeltaY(delta) {
     return delta;
 }
 
-// Generate multicolor
+// Generate Multicolor
 function generateColor() {
     let c = HSVtoRGB(Math.random(), 1.0, 1.0);
     c.r *= 0.15;
