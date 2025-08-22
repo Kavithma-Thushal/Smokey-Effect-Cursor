@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Smokey Effect Cursor</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
-
         * {
             margin: 0;
             padding: 0;
@@ -31,43 +29,11 @@
             height: 100vh;
             z-index: 0;
         }
-
-        .center-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            z-index: 1;
-        }
-
-        .center-text h1 {
-            font-size: 3em;
-            color: #ffffffcc;
-            text-shadow: 0 0 10px #00f2ff, 0 0 20px #00f2ff, 0 0 30px #00f2ff;
-        }
-
-        .overlay-glass {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            backdrop-filter: blur(6px);
-            background-color: rgba(0, 0, 0, 0.2);
-            z-index: 0.5;
-        }
     </style>
 </head>
 
 <body>
 <canvas id="fluid"></canvas>
-
-<div class="overlay-glass"></div>
-
-<div class="center-text">
-    <h1>Smokey Effect Cursor</h1>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="cursor.js"></script>
