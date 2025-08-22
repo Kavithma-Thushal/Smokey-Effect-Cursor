@@ -18,10 +18,6 @@ pages, or interactive web experiments
 
 ### 🔗 [Live Demo](https://kavithma-thushal.github.io/smokey-effect-cursor/)
 
-## 📸 Screenshots
-
-<img src="ss.png">
-
 ## 📝 Version
 
 **1.0.0**
